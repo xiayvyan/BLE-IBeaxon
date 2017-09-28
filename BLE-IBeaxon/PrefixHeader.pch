@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  BLE-IBeaxon
+//
+//  Created by 摇果 on 2017/9/28.
+//  Copyright © 2017年 摇果. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "MBProgressHUD.h"
+#import "Header.h"
+
+#define DEFINE_SHARED_INSTANCE_USING_BLOCK(block) \
+static dispatch_once_t pred = 0; \
+__strong static id _sharedObject = nil; \
+dispatch_once(&pred, ^{ \
+_sharedObject = block(); \
+}); \
+return _sharedObject; \
+
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+
+#define NSLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+//#define IBeaconUUID  @"7703C1DE-B010-495B-BC5A-5ABEB74CE897"
+#define IBeaconUUID  @"FDA50693-A4E2-4FB1-AFCF-C6EB07647825"
+
+#endif /* PrefixHeader_pch */

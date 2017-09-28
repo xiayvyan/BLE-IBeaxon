@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E115C7E1F7C830B00656A66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E115C7D1F7C830B00656A66 /* main.m */; };
+		7E115C811F7C830B00656A66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E115C801F7C830B00656A66 /* AppDelegate.m */; };
+		7E115C841F7C830B00656A66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E115C831F7C830B00656A66 /* ViewController.m */; };
+		7E115C891F7C830B00656A66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E115C881F7C830B00656A66 /* Assets.xcassets */; };
+		7E115C8C1F7C830B00656A66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E115C8A1F7C830B00656A66 /* LaunchScreen.storyboard */; };
+		7E115C971F7C830C00656A66 /* BLE_IBeaxonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E115C961F7C830C00656A66 /* BLE_IBeaxonTests.m */; };
+		7E115CA21F7C830C00656A66 /* BLE_IBeaxonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E115CA11F7C830C00656A66 /* BLE_IBeaxonUITests.m */; };
+		7E115CBB1F7C840900656A66 /* BLECentralController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E115CB01F7C840900656A66 /* BLECentralController.m */; };
+		7E115CBC1F7C840900656A66 /* BLEPeripheralController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E115CB21F7C840900656A66 /* BLEPeripheralController.m */; };
+		7E115CBD1F7C840900656A66 /* IbeaaconModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E115CB41F7C840900656A66 /* IbeaaconModel.m */; };
+		7E115CBE1F7C840900656A66 /* IBeaconCentralCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E115CB61F7C840900656A66 /* IBeaconCentralCell.m */; };
+		7E115CBF1F7C840900656A66 /* IBeaconCentralController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E115CB81F7C840900656A66 /* IBeaconCentralController.m */; };
+		7E115CC01F7C840900656A66 /* IBeaconPeripheralController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E115CBA1F7C840900656A66 /* IBeaconPeripheralController.m */; };
+		7E115CC61F7C846A00656A66 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E115CC51F7C846A00656A66 /* MBProgressHUD.m */; };
+		7E115CD01F7C84A800656A66 /* BLECentralSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E115CC91F7C84A800656A66 /* BLECentralSingle.m */; };
+		7E115CD11F7C84A800656A66 /* BLEPeripheralSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E115CCB1F7C84A800656A66 /* BLEPeripheralSingle.m */; };
+		7E115CD21F7C84A800656A66 /* IBeaconCentralSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E115CCD1F7C84A800656A66 /* IBeaconCentralSingle.m */; };
+		7E115CD31F7C84A800656A66 /* IBeaconPeripheralSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E115CCF1F7C84A800656A66 /* IBeaconPeripheralSingle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E115C931F7C830C00656A66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E115C711F7C830B00656A66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E115C781F7C830B00656A66;
+			remoteInfo = "BLE-IBeaxon";
+		};
+		7E115C9E1F7C830C00656A66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E115C711F7C830B00656A66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E115C781F7C830B00656A66;
+			remoteInfo = "BLE-IBeaxon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E115C791F7C830B00656A66 /* BLE-IBeaxon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLE-IBeaxon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E115C7D1F7C830B00656A66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E115C7F1F7C830B00656A66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E115C801F7C830B00656A66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E115C821F7C830B00656A66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E115C831F7C830B00656A66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E115C881F7C830B00656A66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E115C8B1F7C830B00656A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E115C8D1F7C830B00656A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E115C921F7C830C00656A66 /* BLE-IBeaxonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLE-IBeaxonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E115C961F7C830C00656A66 /* BLE_IBeaxonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLE_IBeaxonTests.m; sourceTree = "<group>"; };
+		7E115C981F7C830C00656A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E115C9D1F7C830C00656A66 /* BLE-IBeaxonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLE-IBeaxonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E115CA11F7C830C00656A66 /* BLE_IBeaxonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLE_IBeaxonUITests.m; sourceTree = "<group>"; };
+		7E115CA31F7C830C00656A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E115CAF1F7C840900656A66 /* BLECentralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLECentralController.h; sourceTree = "<group>"; };
+		7E115CB01F7C840900656A66 /* BLECentralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLECentralController.m; sourceTree = "<group>"; };
+		7E115CB11F7C840900656A66 /* BLEPeripheralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEPeripheralController.h; sourceTree = "<group>"; };
+		7E115CB21F7C840900656A66 /* BLEPeripheralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEPeripheralController.m; sourceTree = "<group>"; };
+		7E115CB31F7C840900656A66 /* IbeaaconModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IbeaaconModel.h; sourceTree = "<group>"; };
+		7E115CB41F7C840900656A66 /* IbeaaconModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IbeaaconModel.m; sourceTree = "<group>"; };
+		7E115CB51F7C840900656A66 /* IBeaconCentralCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBeaconCentralCell.h; sourceTree = "<group>"; };
+		7E115CB61F7C840900656A66 /* IBeaconCentralCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBeaconCentralCell.m; sourceTree = "<group>"; };
+		7E115CB71F7C840900656A66 /* IBeaconCentralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBeaconCentralController.h; sourceTree = "<group>"; };
+		7E115CB81F7C840900656A66 /* IBeaconCentralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBeaconCentralController.m; sourceTree = "<group>"; };
+		7E115CB91F7C840900656A66 /* IBeaconPeripheralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBeaconPeripheralController.h; sourceTree = "<group>"; };
+		7E115CBA1F7C840900656A66 /* IBeaconPeripheralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBeaconPeripheralController.m; sourceTree = "<group>"; };
+		7E115CC11F7C842500656A66 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7E115CC21F7C844300656A66 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		7E115CC41F7C846A00656A66 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		7E115CC51F7C846A00656A66 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		7E115CC81F7C84A800656A66 /* BLECentralSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLECentralSingle.h; sourceTree = "<group>"; };
+		7E115CC91F7C84A800656A66 /* BLECentralSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLECentralSingle.m; sourceTree = "<group>"; };
+		7E115CCA1F7C84A800656A66 /* BLEPeripheralSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEPeripheralSingle.h; sourceTree = "<group>"; };
+		7E115CCB1F7C84A800656A66 /* BLEPeripheralSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEPeripheralSingle.m; sourceTree = "<group>"; };
+		7E115CCC1F7C84A800656A66 /* IBeaconCentralSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBeaconCentralSingle.h; sourceTree = "<group>"; };
+		7E115CCD1F7C84A800656A66 /* IBeaconCentralSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBeaconCentralSingle.m; sourceTree = "<group>"; };
+		7E115CCE1F7C84A800656A66 /* IBeaconPeripheralSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBeaconPeripheralSingle.h; sourceTree = "<group>"; };
+		7E115CCF1F7C84A800656A66 /* IBeaconPeripheralSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBeaconPeripheralSingle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E115C761F7C830B00656A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E115C8F1F7C830C00656A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E115C9A1F7C830C00656A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E115C701F7C830B00656A66 = {
+			isa = PBXGroup;
+			children = (
+				7E115C7B1F7C830B00656A66 /* BLE-IBeaxon */,
+				7E115C951F7C830C00656A66 /* BLE-IBeaxonTests */,
+				7E115CA01F7C830C00656A66 /* BLE-IBeaxonUITests */,
+				7E115C7A1F7C830B00656A66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E115C7A1F7C830B00656A66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E115C791F7C830B00656A66 /* BLE-IBeaxon.app */,
+				7E115C921F7C830C00656A66 /* BLE-IBeaxonTests.xctest */,
+				7E115C9D1F7C830C00656A66 /* BLE-IBeaxonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E115C7B1F7C830B00656A66 /* BLE-IBeaxon */ = {
+			isa = PBXGroup;
+			children = (
+				7E115C7F1F7C830B00656A66 /* AppDelegate.h */,
+				7E115C801F7C830B00656A66 /* AppDelegate.m */,
+				7E115C821F7C830B00656A66 /* ViewController.h */,
+				7E115C831F7C830B00656A66 /* ViewController.m */,
+				7E115CAF1F7C840900656A66 /* BLECentralController.h */,
+				7E115CB01F7C840900656A66 /* BLECentralController.m */,
+				7E115CB11F7C840900656A66 /* BLEPeripheralController.h */,
+				7E115CB21F7C840900656A66 /* BLEPeripheralController.m */,
+				7E115CB31F7C840900656A66 /* IbeaaconModel.h */,
+				7E115CB41F7C840900656A66 /* IbeaaconModel.m */,
+				7E115CB51F7C840900656A66 /* IBeaconCentralCell.h */,
+				7E115CB61F7C840900656A66 /* IBeaconCentralCell.m */,
+				7E115CB71F7C840900656A66 /* IBeaconCentralController.h */,
+				7E115CB81F7C840900656A66 /* IBeaconCentralController.m */,
+				7E115CB91F7C840900656A66 /* IBeaconPeripheralController.h */,
+				7E115CBA1F7C840900656A66 /* IBeaconPeripheralController.m */,
+				7E115CC71F7C848A00656A66 /* Tool */,
+				7E115CC31F7C846A00656A66 /* MBProgressHUD */,
+				7E115C881F7C830B00656A66 /* Assets.xcassets */,
+				7E115C8A1F7C830B00656A66 /* LaunchScreen.storyboard */,
+				7E115C8D1F7C830B00656A66 /* Info.plist */,
+				7E115C7C1F7C830B00656A66 /* Supporting Files */,
+			);
+			path = "BLE-IBeaxon";
+			sourceTree = "<group>";
+		};
+		7E115C7C1F7C830B00656A66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E115C7D1F7C830B00656A66 /* main.m */,
+				7E115CC11F7C842500656A66 /* PrefixHeader.pch */,
+				7E115CC21F7C844300656A66 /* Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E115C951F7C830C00656A66 /* BLE-IBeaxonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E115C961F7C830C00656A66 /* BLE_IBeaxonTests.m */,
+				7E115C981F7C830C00656A66 /* Info.plist */,
+			);
+			path = "BLE-IBeaxonTests";
+			sourceTree = "<group>";
+		};
+		7E115CA01F7C830C00656A66 /* BLE-IBeaxonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E115CA11F7C830C00656A66 /* BLE_IBeaxonUITests.m */,
+				7E115CA31F7C830C00656A66 /* Info.plist */,
+			);
+			path = "BLE-IBeaxonUITests";
+			sourceTree = "<group>";
+		};
+		7E115CC31F7C846A00656A66 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7E115CC41F7C846A00656A66 /* MBProgressHUD.h */,
+				7E115CC51F7C846A00656A66 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		7E115CC71F7C848A00656A66 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				7E115CC81F7C84A800656A66 /* BLECentralSingle.h */,
+				7E115CC91F7C84A800656A66 /* BLECentralSingle.m */,
+				7E115CCA1F7C84A800656A66 /* BLEPeripheralSingle.h */,
+				7E115CCB1F7C84A800656A66 /* BLEPeripheralSingle.m */,
+				7E115CCC1F7C84A800656A66 /* IBeaconCentralSingle.h */,
+				7E115CCD1F7C84A800656A66 /* IBeaconCentralSingle.m */,
+				7E115CCE1F7C84A800656A66 /* IBeaconPeripheralSingle.h */,
+				7E115CCF1F7C84A800656A66 /* IBeaconPeripheralSingle.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E115C781F7C830B00656A66 /* BLE-IBeaxon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E115CA61F7C830C00656A66 /* Build configuration list for PBXNativeTarget "BLE-IBeaxon" */;
+			buildPhases = (
+				7E115C751F7C830B00656A66 /* Sources */,
+				7E115C761F7C830B00656A66 /* Frameworks */,
+				7E115C771F7C830B00656A66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BLE-IBeaxon";
+			productName = "BLE-IBeaxon";
+			productReference = 7E115C791F7C830B00656A66 /* BLE-IBeaxon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E115C911F7C830C00656A66 /* BLE-IBeaxonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E115CA91F7C830C00656A66 /* Build configuration list for PBXNativeTarget "BLE-IBeaxonTests" */;
+			buildPhases = (
+				7E115C8E1F7C830C00656A66 /* Sources */,
+				7E115C8F1F7C830C00656A66 /* Frameworks */,
+				7E115C901F7C830C00656A66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E115C941F7C830C00656A66 /* PBXTargetDependency */,
+			);
+			name = "BLE-IBeaxonTests";
+			productName = "BLE-IBeaxonTests";
+			productReference = 7E115C921F7C830C00656A66 /* BLE-IBeaxonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E115C9C1F7C830C00656A66 /* BLE-IBeaxonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E115CAC1F7C830C00656A66 /* Build configuration list for PBXNativeTarget "BLE-IBeaxonUITests" */;
+			buildPhases = (
+				7E115C991F7C830C00656A66 /* Sources */,
+				7E115C9A1F7C830C00656A66 /* Frameworks */,
+				7E115C9B1F7C830C00656A66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E115C9F1F7C830C00656A66 /* PBXTargetDependency */,
+			);
+			name = "BLE-IBeaxonUITests";
+			productName = "BLE-IBeaxonUITests";
+			productReference = 7E115C9D1F7C830C00656A66 /* BLE-IBeaxonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E115C711F7C830B00656A66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "摇果";
+				TargetAttributes = {
+					7E115C781F7C830B00656A66 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8PAYVXSWCM;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					7E115C911F7C830C00656A66 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E115C781F7C830B00656A66;
+					};
+					7E115C9C1F7C830C00656A66 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E115C781F7C830B00656A66;
+					};
+				};
+			};
+			buildConfigurationList = 7E115C741F7C830B00656A66 /* Build configuration list for PBXProject "BLE-IBeaxon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E115C701F7C830B00656A66;
+			productRefGroup = 7E115C7A1F7C830B00656A66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E115C781F7C830B00656A66 /* BLE-IBeaxon */,
+				7E115C911F7C830C00656A66 /* BLE-IBeaxonTests */,
+				7E115C9C1F7C830C00656A66 /* BLE-IBeaxonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E115C771F7C830B00656A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E115C8C1F7C830B00656A66 /* LaunchScreen.storyboard in Resources */,
+				7E115C891F7C830B00656A66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E115C901F7C830C00656A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E115C9B1F7C830C00656A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E115C751F7C830B00656A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E115C841F7C830B00656A66 /* ViewController.m in Sources */,
+				7E115CBB1F7C840900656A66 /* BLECentralController.m in Sources */,
+				7E115CD01F7C84A800656A66 /* BLECentralSingle.m in Sources */,
+				7E115CC01F7C840900656A66 /* IBeaconPeripheralController.m in Sources */,
+				7E115C811F7C830B00656A66 /* AppDelegate.m in Sources */,
+				7E115CD11F7C84A800656A66 /* BLEPeripheralSingle.m in Sources */,
+				7E115CBF1F7C840900656A66 /* IBeaconCentralController.m in Sources */,
+				7E115CD21F7C84A800656A66 /* IBeaconCentralSingle.m in Sources */,
+				7E115CBD1F7C840900656A66 /* IbeaaconModel.m in Sources */,
+				7E115CBC1F7C840900656A66 /* BLEPeripheralController.m in Sources */,
+				7E115CC61F7C846A00656A66 /* MBProgressHUD.m in Sources */,
+				7E115CBE1F7C840900656A66 /* IBeaconCentralCell.m in Sources */,
+				7E115C7E1F7C830B00656A66 /* main.m in Sources */,
+				7E115CD31F7C84A800656A66 /* IBeaconPeripheralSingle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E115C8E1F7C830C00656A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E115C971F7C830C00656A66 /* BLE_IBeaxonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E115C991F7C830C00656A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E115CA21F7C830C00656A66 /* BLE_IBeaxonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E115C941F7C830C00656A66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E115C781F7C830B00656A66 /* BLE-IBeaxon */;
+			targetProxy = 7E115C931F7C830C00656A66 /* PBXContainerItemProxy */;
+		};
+		7E115C9F1F7C830C00656A66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E115C781F7C830B00656A66 /* BLE-IBeaxon */;
+			targetProxy = 7E115C9E1F7C830C00656A66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E115C8A1F7C830B00656A66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E115C8B1F7C830B00656A66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E115CA41F7C830C00656A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E115CA51F7C830C00656A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E115CA71F7C830C00656A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8PAYVXSWCM;
+				GCC_PREFIX_HEADER = "/Users/yaoguo/Desktop/BLE-IBeaxon/BLE-IBeaxon/PrefixHeader.pch";
+				INFOPLIST_FILE = "BLE-IBeaxon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiayuyan.BLE-IBeaxon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E115CA81F7C830C00656A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8PAYVXSWCM;
+				GCC_PREFIX_HEADER = "/Users/yaoguo/Desktop/BLE-IBeaxon/BLE-IBeaxon/PrefixHeader.pch";
+				INFOPLIST_FILE = "BLE-IBeaxon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiayuyan.BLE-IBeaxon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E115CAA1F7C830C00656A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BLE-IBeaxonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiayuyan.BLE-IBeaxonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLE-IBeaxon.app/BLE-IBeaxon";
+			};
+			name = Debug;
+		};
+		7E115CAB1F7C830C00656A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BLE-IBeaxonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiayuyan.BLE-IBeaxonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLE-IBeaxon.app/BLE-IBeaxon";
+			};
+			name = Release;
+		};
+		7E115CAD1F7C830C00656A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BLE-IBeaxonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiayuyan.BLE-IBeaxonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BLE-IBeaxon";
+			};
+			name = Debug;
+		};
+		7E115CAE1F7C830C00656A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BLE-IBeaxonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiayuyan.BLE-IBeaxonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BLE-IBeaxon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E115C741F7C830B00656A66 /* Build configuration list for PBXProject "BLE-IBeaxon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E115CA41F7C830C00656A66 /* Debug */,
+				7E115CA51F7C830C00656A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E115CA61F7C830C00656A66 /* Build configuration list for PBXNativeTarget "BLE-IBeaxon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E115CA71F7C830C00656A66 /* Debug */,
+				7E115CA81F7C830C00656A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E115CA91F7C830C00656A66 /* Build configuration list for PBXNativeTarget "BLE-IBeaxonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E115CAA1F7C830C00656A66 /* Debug */,
+				7E115CAB1F7C830C00656A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E115CAC1F7C830C00656A66 /* Build configuration list for PBXNativeTarget "BLE-IBeaxonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E115CAD1F7C830C00656A66 /* Debug */,
+				7E115CAE1F7C830C00656A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E115C711F7C830B00656A66 /* Project object */;
+}
